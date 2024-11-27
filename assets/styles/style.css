@@ -1,5 +1,36 @@
 .harvestbox{
+  width: 100%;
+  min-height: 200px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block1{
+
+  display: flex;
+  flex-direction: column;
+margin-left: 20px;
+}
+
+
+.text1 {
+  font-size:35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+.text2 {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.button {}
+
+
+.girlpic {
+  margin-left: 20px;
+/* background-color: rgba(161, 196, 135, 0.69); */
 }
 
 .footer{
@@ -9,15 +40,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .logobig{
   display: flex;
   flex-direction: column;
-  padding: 20px;
+ margin-left: 20px;
 }
 .logo{
   display: flex;
   flex-direction: row;
+  margin-left: 100px;
 }
 
 .veggieboost{
@@ -36,4 +69,36 @@ text-align: center;
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+
+
+
+
+
+.input-button-container {
+  margin-top: 10px;
+  display: flex;
+  border: 2px solid #c9c2c2;
+  border-radius: 40px;
+  /* Для скругления углов */
+}
+
+.input-button-container input {
+  flex-grow: 1;
+  /* Поле занимает всё доступное пространство */
+  border: none;
+  /* Границы отсутствуют */
+  padding: 5px;
+  /* outline: none; */
+  /* Очертание при фокусе отсутствует */
+}
+
+.input-button-container button {
+  background: rgba(252, 138, 17, 1);
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  /* Курсор в виде указателя */
 }
