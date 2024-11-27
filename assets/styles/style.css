@@ -1,0 +1,39 @@
+.harvestbox{
+  display: flex;
+}
+
+.footer{
+  background-color: rgba(234, 247, 229, 1);
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logobig{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.veggieboost{
+padding-right: 50px;
+}
+.navlinks{
+text-align: center;
+
+}
+.text5{
+  color: black;
+
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
