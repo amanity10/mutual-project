@@ -1,9 +1,9 @@
-.harvestbox{
+ .harvestbox{
   width: 100%;
   min-height: 200px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .block1{
 
@@ -24,33 +24,55 @@ margin-left: 20px;
   font-size: 18px;
   padding-top: 10px;
 }
+.input-button-container {
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+  border: 2px solid #c9c2c2;
+  border-radius: 40px;
+}
 
-.button {}
+.input-button-container input {
+  flex-grow: 1;
+  /* Поле занимает всё доступное пространство */
+   margin-left: 20px;
+  border: none;
+}
+
+.input-button-container button {
+  background: rgba(252, 138, 17, 1);
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 40px;
+}
 
 
 .girlpic {
   margin-left: 20px;
-/* background-color: rgba(161, 196, 135, 0.69); */
 }
 
 .footer{
   background-color: rgba(234, 247, 229, 1);
-  min-height: 200px;
+  min-height: 300px;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 30px;
 }
 .logobig{
-  display: flex;
-  flex-direction: column;
- margin-left: 20px;
+display: flex;
+flex-direction: column;
+margin-top: 30px;
+margin-right: 40px;
 }
 .logo{
   display: flex;
   flex-direction: row;
   margin-left: 100px;
+  margin-top: 20px;
 }
 
 .veggieboost{
@@ -65,40 +87,15 @@ text-align: center;
 
 }
 
+.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+
+}
 .contacts{
   display: flex;
   flex-direction: column;
   padding: 20px;
-}
-
-
-
-
-
-
-.input-button-container {
-  margin-top: 10px;
-  display: flex;
-  border: 2px solid #c9c2c2;
-  border-radius: 40px;
-  /* Для скругления углов */
-}
-
-.input-button-container input {
-  flex-grow: 1;
-  /* Поле занимает всё доступное пространство */
-  border: none;
-  /* Границы отсутствуют */
-  padding: 5px;
-  /* outline: none; */
-  /* Очертание при фокусе отсутствует */
-}
-
-.input-button-container button {
-  background: rgba(252, 138, 17, 1);
-  border: none;
-  padding: 20px;
-  cursor: pointer;
-  border-radius: 40px;
-  /* Курсор в виде указателя */
 }
