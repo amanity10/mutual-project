@@ -9,13 +9,15 @@
   min-height: 200px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  
 }
 .block1{
 
-  display: flex;
-  flex-direction: column;
-margin-left: 20px;
+display: flex;
+flex-direction: column;
+margin-left: 150px;
+padding-right: 100px;
 }
 
 
@@ -23,15 +25,17 @@ margin-left: 20px;
   font-size:35px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 60px;
   
 }
 
 .text2 {
   font-size: 18px;
-  padding-top: 10px;
+margin-top: 30px;
 }
+
 .input-button-container {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 100px;
   display: flex;
   border: 2px solid #c9c2c2;
@@ -40,7 +44,6 @@ margin-left: 20px;
 
 .input-button-container input {
   flex-grow: 1;
-  /* Поле занимает всё доступное пространство */
   margin-left: 20px;
   border: none;
 }
@@ -55,8 +58,8 @@ margin-left: 20px;
 }
 
 
-.girlpic {
-  margin-left: 20px;
+.picture{
+ margin-right: 40px;
 }
 
 .footer{
@@ -87,11 +90,17 @@ padding-right: 50px;
 }
 .links{
 
-  width: 50%%;
+  width: 30%;
 display:flex;
 flex-direction:row;
 justify-content:space-evenly;
+align-items: center;
 
+}
+
+.text5{
+  color: black;
+  text-decoration: none;
 }
 
 
