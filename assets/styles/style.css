@@ -35,10 +35,12 @@ margin-top: 30px;
 }
 
 .input-button-container {
+  background-color: transparent;
+  width: 50%;
   margin-top: 40px;
-  margin-left: 100px;
+  /* margin-left: 20px; */
   display: flex;
-  border: 2px solid #c9c2c2;
+  border: 2px solid #a5a2a2c9;
   border-radius: 40px;
 }
 
