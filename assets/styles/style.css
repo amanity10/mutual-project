@@ -1,18 +1,15 @@
-/* *{
-  outline: 1px solid red;
-} */
+
 
 
 
 .harvestbox{
-  width: 100%;
-  min-height: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
+width: 100%;
+min-height: 200px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
-.block1{
+.harvestbox__block1{
 
 display: flex;
 flex-direction: column;
@@ -21,111 +18,116 @@ padding-right: 100px;
 }
 
 
-.text1 {
-  font-size:35px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 60px;
-  
+.harvestbox__block-text {
+font-size:35px;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 60px;
 }
 
-.text2 {
-  font-size: 18px;
+.harvestbox__block-text1{
+font-size: 18px;
 margin-top: 30px;
 }
 
 .input-button-container {
-  background-color: transparent;
-  width: 50%;
-  margin-top: 40px;
-  /* margin-left: 20px; */
-  display: flex;
-  border: 2px solid #a5a2a2c9;
-  border-radius: 40px;
+background-color: transparent;
+width: 50%;
+margin-top: 40px;
+/* margin-left: 20px; */
+display: flex;
+border: 2px solid #a5a2a2c9;
+border-radius: 40px;
 }
 
 .input-button-container input {
-  flex-grow: 1;
-  margin-left: 20px;
-  border: none;
+flex-grow: 1;
+margin-left: 20px;
+border: none;
 }
 
 .input-button-container button {
-  background: rgba(252, 138, 17, 1);
-  color: aliceblue;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 40px;
+background: rgba(252, 138, 17, 1);
+color: aliceblue;
+border: none;
+cursor: pointer;
+padding: 10px;
+border-radius: 40px;
 }
 
 
-.picture{
- margin-right: 40px;
+.harvestbox__img{
+margin-right: 40px;
 }
 
-.footer{
-  background-color: rgba(234, 247, 229, 1);
-  min-height: 300px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 30px;
+footer{
+background-color: rgba(234, 247, 229, 1);
+min-height: 300px;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 30px;
 }
-.logobig{
-  width: 15%;
+.footer__logo{
+width: 15%;
 display: flex;
 flex-direction: column;
 margin-top: 30px;
 margin-right: 40px;
 }
-.logo{
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  margin-top: 20px;
+
+.footer__logo-wrapper{
+display: flex;
+flex-direction: row;
+margin-left: 100px;
+margin-top: 20px;
 }
 
-.veggieboost{
+.footer__logo-text{
 padding-right: 50px;
 }
-.links{
 
-  width: 30%;
+.footer__nav{
+width: 30%;
 display:flex;
 flex-direction:row;
 justify-content:space-evenly;
 align-items: center;
-
-}
-
-.text5{
-  color: black;
-  text-decoration: none;
 }
 
 
-.socials{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 30px;
-
-}
-.contacts{
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
+.footer__nav-link{
+color: black;
+text-decoration: none;
 }
 
-.address{
-  margin-top: 20px;
-  margin-left: 70px;
+
+a:hover {
+color: #4caf50;
 }
 
-.phone {
-  margin-top: 20px;
-  margin-left: 70px;
+.footer__info-socials{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 30px;
+
+
+}
+.footer__info{
+width: 20%;
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+
+.footer__info-address{
+margin-top: 20px;
+margin-left: 70px;
+}
+
+.footer__info-tel {
+margin-top: 20px;
+margin-left: 70px;
 }
